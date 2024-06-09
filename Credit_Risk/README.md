@@ -1,27 +1,22 @@
-# Module 12 Report Template
-
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+In this analysis, the goal was to predict credit risk using a machine learning model trained on a dataset containing various financial features. The dataset comprised information such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt. The target variable was binary, with class 0 indicating healthy credit and class 1 indicating high risk.
 
-- Explain the purpose of the analysis.
-- Explain what financial information the data was on, and what you needed to predict.
-- Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-- Describe the stages of the machine learning process you went through as part of this analysis.
-- Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+The machine learning process began with data preprocessing, including splitting the dataset into training and testing sets using stratification to ensure balanced classes. A logistic regression model was then selected and trained on the training data. Model evaluation was performed using a confusion matrix and a classification report.
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-- Machine Learning Model 1:
-  - Description of Model 1 Accuracy, Precision, and Recall scores.
+Logistic Regression Model:
+-Precision for class 0: 100%
+-Recall for class 0: 100%
+-F1-score for class 0: 100%
+-Precision for class 1: 87%
+-Recall for class 1: 89%
+-F1-score for class 1: 88%
+-Accuracy: 99%
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+The logistic regression model demonstrates excellent performance in predicting credit risk. For class 0 (healthy credit), the model achieves perfect precision, recall, and F1-score, indicating accurate classification of instances in this category. For class 1 (high risk), although precision and recall are slightly lower, the model still achieves a high F1-score of 88%, indicating effective identification of high-risk cases.
 
-- Which one seems to perform best? How do you know it performs best?
-- Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+Overall, the model exhibits high accuracy and balanced performance across both classes, making it a suitable choice for predicting credit risk. However, further analysis and model comparison with alternative algorithms could provide additional insights and validation.
