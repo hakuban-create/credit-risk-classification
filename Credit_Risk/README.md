@@ -8,19 +8,19 @@ The machine learning process began with data preprocessing, including splitting 
 
 Logistic Regression Model:
 
--Precision for class 0: 100%
-
--Recall for class 0: 100%
-
--F1-score for class 0: 100%
-
--Precision for class 1: 87%
-
--Recall for class 1: 89%
-
--F1-score for class 1: 88%
-
--Accuracy: 99%
+      -Precision for class 0: 100%
+      
+      -Recall for class 0: 100%
+      
+      -F1-score for class 0: 100%
+      
+      -Precision for class 1: 87%
+      
+      -Recall for class 1: 89%
+      
+      -F1-score for class 1: 88%
+      
+      -Accuracy: 99%
 
 ## Summary
 
